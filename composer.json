@@ -1,38 +1,37 @@
 {
-    "name": "icetalker/filament-table-repeater",
+    "name": "hassnaedh/filament-table-repeater",
     "description": "This is a package for Filament form component. Extends form Repeater, but shows in Table Layout.",
     "keywords": [
-        "icetalker",
+        "hassnaedh",
         "laravel",
         "filament",
         "filament-table-repeater"
     ],
-    "homepage": "https://github.com/icetalker/filament-table-repeater",
+    "homepage": "https://github.com/Hassnaedh/filament-table-repeater",
     "license": "MIT",
     "authors": [
         {
-            "name": "Martin Hwang",
-            "email": "martin.hwang@outlook.com",
-            "role": "Developer"
+            "name": "Hassnaedh",
+            "email": "dehbihassnae@gmail.com"
         }
     ],
     "require": {
-        "php": "^8.0",
+        "php": "^8.3",
         "filament/forms": "^3.0",
         "spatie/laravel-package-tools": "^1.9.2",
-        "illuminate/contracts": "^8.6|^9.0|^10.0|^11.0|^12.0"
+        "illuminate/contracts": "^8.6|^9.0|^10.0|^11.0|^12.0|^13.0"
     },
     "require-dev": {
         "friendsofphp/php-cs-fixer": "^3.8",
         "nunomaduro/collision": "^6.0|^8.0",
-        "nunomaduro/larastan": "^2.0.1",
-        "orchestra/testbench": "^7.0|^9.0|^10.0",
-        "pestphp/pest": "^1.21|^2.34|^3.7",
-        "pestphp/pest-plugin-laravel": "^1.1|^2.3|^3.1",
+        "nunomaduro/larastan": "^2.0.1|^3.9.3",
+        "orchestra/testbench": "^7.0|^9.0|^10.0|^11.0",
+        "pestphp/pest": "^1.21|^2.34|^3.7|^4.4",
+        "pestphp/pest-plugin-laravel": "^1.1|^2.3|^3.1|^4.1",
         "phpstan/extension-installer": "^1.1",
         "phpstan/phpstan-deprecation-rules": "^1.0|^2.0",
         "phpstan/phpstan-phpunit": "^1.0|^2.0",
-        "phpunit/phpunit": "^9.5|^10.5|^11.5.3",
+        "phpunit/phpunit": "^9.5|^10.5|^11.5.3|^12.5",
         "spatie/laravel-ray": "^1.26"
     },
     "autoload": {

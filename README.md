@@ -3,7 +3,9 @@
 
 # Repeater Component in Table layout for Filament Package
 
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/icetalker/filament-table-repeater.svg?style=flat-square)](https://packagist.org/packages/icetalker/filament-table-repeater)
+> **Fork notice:** This is a fork of [`icetalker/filament-table-repeater`](https://github.com/icetalker/filament-table-repeater), based on the 1.x line (v1.4), kept on Filament v3 while adding Laravel 13 / PHP 8.3+ support. The PHP namespaces remain `Icetalker\FilamentTableRepeater\*` for backwards compatibility.
+
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/hassnaedh/filament-table-repeater.svg?style=flat-square)](https://packagist.org/packages/hassnaedh/filament-table-repeater)
 [![GitHub Tests Action Status](https://img.shields.io/github/workflow/status/icetalker/filament-table-repeater/run-tests?label=tests)](https://github.com/icetalker/filament-table-repeater/actions?query=workflow%3Arun-tests+branch%3Amain)
 [![GitHub Code Style Action Status](https://img.shields.io/github/workflow/status/icetalker/filament-table-repeater/Check%20&%20fix%20styling?label=code%20style)](https://github.com/icetalker/filament-table-repeater/actions?query=workflow%3A"Check+%26+fix+styling"+branch%3Amain)
 [![Total Downloads](https://img.shields.io/packagist/dt/icetalker/filament-table-repeater.svg?style=flat-square)](https://packagist.org/packages/icetalker/filament-table-repeater)
@@ -19,7 +21,26 @@ This is a package for Filament form component. Extends from Repeater, but displa
 You can install the package via composer:
 
 ```bash
-composer require icetalker/filament-table-repeater
+composer require hassnaedh/filament-table-repeater
+```
+
+If the package is not on Packagist, add the VCS repository to your project's `composer.json` first:
+
+```json
+{
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/Hassnaedh/filament-table-repeater.git"
+        }
+    ]
+}
+```
+
+Then require the `laravel-13` branch:
+
+```bash
+composer require hassnaedh/filament-table-repeater:dev-laravel-13
 ```
 
 You can publish the views using
